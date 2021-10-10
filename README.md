@@ -1,4 +1,4 @@
- ![banner]() 
+ ![banner](https://raw.githubusercontent.com/lucianesantcs/acessibilidade-modal/master/assets/acessibilidade-modal.gif) 
 
 # Acessibilidade modal
 
