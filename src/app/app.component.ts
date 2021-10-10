@@ -29,14 +29,13 @@ export class AppComponent implements OnInit{
   }
 
   public submit(): void {
-    console.log(this.form.value);
     if(this.form.invalid) return;
     this.modalRef.close();
   }
 
   public ngOnInit(): void {
     this.form = this.formBuilder.group({
-      firstName: ['Flavio', Validators.required],
+      firstName: ['', Validators.required],
       surname: ['', Validators.required],
       age: ['', Validators.required],
       info: [false]
